@@ -2,4 +2,37 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Titillium Web';
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container > section {
+  width: 50%;
+  padding: 40px 5rem 0 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container > img {
+  width: 50%;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.logo > img {
+  margin: 0 0.2rem;
+}
+
+h1 {
+  font-size: 2.25rem;
 }
