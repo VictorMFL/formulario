@@ -96,7 +96,7 @@ const FormLogin = () => {
       </form>
 
       <p className={styles.inscrevaSe}>
-        Ainda não tem uma conta? <Link to={'/increva-se'} >Inscreva-se</Link>
+        Ainda não tem uma conta? <Link to={'/inscreva-se'} >Inscreva-se</Link>
       </p>
     </section>
   );

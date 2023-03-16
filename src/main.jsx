@@ -23,7 +23,7 @@ const router = createBrowserRouter([
     element: <EsqueceuSenha />,
   },
   {
-    path: "/increva-se",
+    path: "/inscreva-se",
     element: <Cadastro />,
   },
 ]);
