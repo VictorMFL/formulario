@@ -74,7 +74,7 @@ const FormLogin = () => {
 
         <div className={styles.senha}>
           <label htmlFor="ipassword">Senha</label>
-          <Link className={styles.esqueceuSenha} to={'esqueceu-senha'} >Esqueceu a senha?</Link>
+          <Link className={styles.esqueceuSenha} to={'/esqueceu-senha'} >Esqueceu a senha?</Link>
         </div>
         <div className={styles.password}>
           <input
@@ -96,7 +96,7 @@ const FormLogin = () => {
       </form>
 
       <p className={styles.inscrevaSe}>
-        Ainda não tem uma conta? <Link to={'increva-se'} >Inscreva-se</Link>
+        Ainda não tem uma conta? <Link to={'/increva-se'} >Inscreva-se</Link>
       </p>
     </section>
   );
