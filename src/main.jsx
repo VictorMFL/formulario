@@ -10,7 +10,7 @@ import Home from "./componentes/Home";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/formulario",
     element: <App />,
     errorElement: <ErrorPage />,
   },
